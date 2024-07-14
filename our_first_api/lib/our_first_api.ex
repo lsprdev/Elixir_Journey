@@ -2,17 +2,7 @@ defmodule OurFirstApi do
   @moduledoc """
   Documentation for `OurFirstApi`.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> OurFirstApi.hello()
-      :world
-
-  """
   def hello do
-    :world
+    "My First Elixir API!"
   end
 end
